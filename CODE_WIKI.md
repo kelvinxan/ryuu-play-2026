@@ -237,7 +237,11 @@ export class Core {
 
 ## 依赖关系
 
-### 包之间的依赖关系
+### 详细依赖关系图
+
+完整的依赖关系图（包括 Mermaid 可视化图、ASCII 艺术图、技术栈图、数据流图等）请参见：[DEPENDENCY_GRAPH.md](file:///workspace/DEPENDENCY_GRAPH.md)
+
+### 包之间的依赖关系（简化版）
 
 ```
 @ptcg/cordova
