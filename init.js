@@ -3,7 +3,8 @@ const { SimpleBot } =  require('@ptcg/simple-bot');
 const { CardManager } = require('@ptcg/common');
 
 // Backend config
-config.backend.address = 'localhost';
+config.backend.address = '0.0.0.0';
+// config.backend.address = 'localhost';
 config.backend.port = 12021;
 config.backend.avatarsDir = __dirname + '/avatars';
 config.backend.webUiDir = __dirname + '/packages/play/dist/ptcg-play';

@@ -18,6 +18,7 @@
     "lint": "eslint -c .eslintrc.js --ext .ts src",
     "compile": "tsc && tsc -p tsconfig.esm.json",
     "build": "npm run lint && npm run test && npm run compile",
+    "build-start": "npm run compile && npm start",
     "start": "node start.js",
     "start:dev": "nodemon -e ts --exec \"tsc && npm run start\"",
     "test": "nyc -e \".ts\" -x \"src/**/*.spec.ts\" jasmine-ts \"src/**/*.spec.ts\"",
